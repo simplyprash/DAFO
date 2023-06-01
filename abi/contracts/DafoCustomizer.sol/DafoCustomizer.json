@@ -1,0 +1,149 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "tokenId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint8",
+        "name": "role",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint8",
+        "name": "palette",
+        "type": "uint8"
+      },
+      {
+        "internalType": "bool",
+        "name": "outline",
+        "type": "bool"
+      }
+    ],
+    "name": "create",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "tokenId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint8",
+            "name": "role",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint8",
+            "name": "palette",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bool",
+            "name": "outline",
+            "type": "bool"
+          }
+        ],
+        "internalType": "struct IDafoCustomizer.CustomInput",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "unavailableId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "tokenMaxSupply",
+        "type": "uint256"
+      },
+      {
+        "internalType": "contract IDafoDescriptor",
+        "name": "descriptor",
+        "type": "address"
+      }
+    ],
+    "name": "generateInput",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "tokenId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint8",
+            "name": "role",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint8",
+            "name": "palette",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bool",
+            "name": "outline",
+            "type": "bool"
+          }
+        ],
+        "internalType": "struct IDafoCustomizer.CustomInput",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IDafoDescriptor",
+        "name": "descriptor",
+        "type": "address"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "tokenId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint8",
+            "name": "role",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint8",
+            "name": "palette",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bool",
+            "name": "outline",
+            "type": "bool"
+          }
+        ],
+        "internalType": "struct IDafoCustomizer.CustomInput",
+        "name": "_customInput",
+        "type": "tuple"
+      }
+    ],
+    "name": "isInBounds",
+    "outputs": [],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "name": "DAFO",
+  "description": "Metahuman fashion club.\r\n\r\ndafo.club",
+  "image": "ipfs://bafybeicyluawqufwtdvaczbmme37zspdlu22aewbwc5t6lexzvxzq56uaq/1470.png",
+  "external_link": "https://dafo.club",
+  "seller_fee_basis_points": 500,
+  "fee_recipient": "0x50F41D856a8F4C749C0119a1B170c15df90D15EB"
+}
